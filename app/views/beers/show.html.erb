@@ -1,0 +1,16 @@
+<div class='card'>
+  <h3> <%= @beer.name %> </h3>
+  <i> Style: <%= @beer.style %> </i>
+  <br />
+  <i> Alcohol By Weight: <%= @beer.abw %> </i>
+  <br />
+  <i> Style: <%= @beer.style %> </i>
+  <br />
+  <i>
+    Empty?: <%= @beer.empty ? 'Oh no, grab another beer' : 'You need a nipple for that?' %>
+  </i>
+</div>
+
+<hr />
+<%= link_to 'Edit', edit_beer_path(@beer) %> |
+<%= link_to 'Back', beers_path %>

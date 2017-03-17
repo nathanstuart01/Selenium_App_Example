@@ -1,0 +1,30 @@
+html, body {
+  background-color: darkgreen;
+}
+
+.flash {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flash.success {
+  background-color: mediumspringgreen;
+}
+
+.flash.error {
+  background-color: indianred;
+}
+
+.flash.info {
+  background-color: powderblue;
+}
+
+.flash.alert {
+  background-color: indianred;
+}
+
+.flash.notice {
+  background-color: powderblue;
+}
